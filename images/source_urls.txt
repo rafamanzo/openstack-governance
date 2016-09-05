@@ -1,0 +1,3 @@
+On 05/09:
+  http://www.openstack.org/foundation/
+  http://www.openstack.org/community/
