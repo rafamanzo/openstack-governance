@@ -1,0 +1,44 @@
+%\documentclass[brazil, 10pt, notes]{beamer} % notes and text
+%\documentclass[brazil, 10pt, notes=only]{beamer} % notes only
+\documentclass[brazil, 10pt]{beamer} % text only
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[brazilian]{babel}
+\usepackage{hyperref}
+\usepackage{listings}
+
+\usetheme{JuanLesPins}
+\setbeamerfont{footnote}{size=\tiny}
+\beamertemplatenavigationsymbolsempty
+
+% Adds a footer with page numbers
+\makeatletter
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    \insertframenumber/\inserttotalframenumber\hspace*{2ex}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\makeatother
+
+% Removes the "Figure:" prefix from figure captions
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+
+\title{Governança dentro do OpenStack}
+\author{Rafael Reggiani Manzo}
+\institute{MAC5856\\ Desenvolvimento de Software Livre\\ Instituto de Matemática e Estatística da Universidade de São Paulo}
+
+\begin{document}
+
+  \maketitle
+
+  %\include{introduction}
+  %\include{bundler}
+  %\include{rvm}
+  %\include{the_end}
+\end{document}
+
